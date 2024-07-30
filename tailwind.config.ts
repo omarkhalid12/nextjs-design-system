@@ -9,7 +9,10 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        primary: "#34996b"
+        primary: {
+          DEFAULT: "hsl(var(--default-brand)/.7)",
+          foreground: "red"
+        }
       }
     },
   },

@@ -5,7 +5,7 @@ import { tailwindCMerge } from "@/utils";
 const buttonVariants = cva("block items-center rounded-md duration-200", {
   variants: {
     variant: {
-      primary: "bg-primary text-black dark:bg-white dark:text-black",
+      primary: "bg-white text-black dark:bg-primary dark:text-black",
       outline: "bg-transparent text-white dark:text-white border border-grey-300",
       destructive: "bg-red-600 text-black dark:bg-red-800 dark:text-white"
     },
