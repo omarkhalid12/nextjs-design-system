@@ -1,8 +1,10 @@
 import Button from "./components/ui/Button";
+import ThemeChanger from "./components/ui/ThemeChanger";
 
 export default function Home() {
   return (
     <main className="min-h-screen p-24">
+      <ThemeChanger />
       <div className="flex items-center space-x-2 border-2 border-indigo-500 p-3 rounded-md">
         <Button size={"xs"}>XS</Button>
         <Button variant={"outline"} size="sm">SMALL</Button>

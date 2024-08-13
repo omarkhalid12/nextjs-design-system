@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`container mx-auto ${inter.className} p-5`}>
-        <ThemeProvider>
+        <ThemeProvider enableSystem attribute="class">
           {children}
         </ThemeProvider>
       </body>
